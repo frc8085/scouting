@@ -85,6 +85,10 @@
     {
       "name": "Teleop",
       "widgets": [
+        {"name": "Cycle Timer",
+          "type": "stopwatch"
+        },
+
         {
           "name": "Picked Up From",
           "type": "heading",
@@ -174,6 +178,9 @@
     {
       "name": "Endgame",
       "widgets": [
+        {"name": "Docking Timer",
+          "type": "stopwatch"
+        },
         {
           "name": "Parking",
           "type": "radio",

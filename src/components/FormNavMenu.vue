@@ -51,6 +51,14 @@ function switchPage(n: number) {
 </script>
 
 <style>
+
+@media (pointer:none),
+(pointer:coarse) {
+  .link {
+    line-height: 140%;
+  }
+}
+
 nav {
   width: min(400px, 100%);
   background-color: #222;

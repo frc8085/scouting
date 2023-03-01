@@ -7,11 +7,7 @@
       "widgets": [
         {
           "name": "Scouter Name",
-          "type": "text",
-          "validation": {
-            "comparison": "greater",
-            "value": 0
-          }
+          "type": "text"
         },
         {
           "name": "Starting Position",
@@ -36,6 +32,7 @@
         {
           "name": "Scored High Game Pieces",
           "type": "togglegrid",
+          "prefix": "Auto",
           "colspan": 3,
           "width": 9,
           "height": 1,
@@ -47,6 +44,7 @@
         {
           "name": "Scored Mid Game Pieces",
           "type": "togglegrid",
+          "prefix": "Auto",
           "colspan": 3,
           "width": 9,
           "height": 1,
@@ -86,14 +84,15 @@
       "name": "Teleop",
       "widgets": [
         {"name": "Cycle Timer",
-          "type": "stopwatch"
+          "type": "stopwatch",
+          "row": 1
         },
-
         {
           "name": "Picked Up From",
           "type": "heading",
+          "row": 2,
           "col": 2,
-          "colspan": 2,
+          "colspan": 3,
           "align": "center"
         },
         {
@@ -107,7 +106,7 @@
         {
           "name": "Sub 2 Low",
           "type": "spinbox",
-          "row": 2,
+          "row": 3,
           "col": 3
         },
         {
@@ -179,7 +178,8 @@
       "name": "Endgame",
       "widgets": [
         {"name": "Docking Timer",
-          "type": "stopwatch"
+          "type": "stopwatch",
+          "row": 1
         },
         {
           "name": "Parking",

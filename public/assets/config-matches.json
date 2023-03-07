@@ -214,7 +214,7 @@
                 },
                 {
                     "name": "Stability",
-                    "type": "dropdown",
+                    "type": "radio",
                     "options": [
                         "Very Stable",
                         "Somewhat Stable"
@@ -225,7 +225,7 @@
                 },
                 {
                     "name": "Reliability",
-                    "type": "dropdown",
+                    "type": "radio",
                     "options": [
                         "No issues",
                         "Intake Broke",
@@ -237,7 +237,7 @@
                 },
                 {
                     "name": "Penalties",
-                    "type": "dropdown",
+                    "type": "radio",
                     "options": [
                         "None",
                         "Foul(s)",

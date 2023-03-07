@@ -167,10 +167,10 @@
                     "colspan": 2,
                     "options": [
                         "0 (Not Played)",
-                        "1",
-                        "2",
-                        "3",
-                        "4",
+                        "1 (Poor)",
+                        "2 (Below Average)",
+                        "3 (Average)",
+                        "4 (Somewhat Effective)",
                         "5 (Very Effective)"
                     ]
                 }
@@ -216,7 +216,8 @@
                     "name": "Stability",
                     "type": "radio",
                     "options": [
-                        "Stable",
+                        "Very Stable",
+                        "Somewhat Stable"
                         "Tippy",
                         "Tipped Over Completely"
                     ],
@@ -230,6 +231,19 @@
                         "Intake Broke",
                         "Scoring Broke",
                         "Drivetrain Broke",
+                        "Completely Disabled"
+                    ],
+                    "default": 0
+                },
+                {
+                    "name": "Penalties",
+                    "type": "radio",
+                    "options": [
+                        "None",
+                        "Foul(s)",
+                        "Tech Foul(s)",
+                        "Given Yellow Card",
+                        "Given Red Card",
                         "Completely Disabled"
                     ],
                     "default": 0

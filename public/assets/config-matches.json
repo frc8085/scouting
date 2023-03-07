@@ -165,10 +165,10 @@
           "colspan": 2,
           "options": [
             "0 (Not Played)",
-            "1",
-            "2",
-            "3",
-            "4",
+            "1 (Played Poorly)",
+            "2 (Below Average)",
+            "3 (Average)",
+            "4 (Above Average)",
             "5 (Very Effective)"
           ]
         }

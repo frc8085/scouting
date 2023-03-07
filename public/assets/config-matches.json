@@ -237,8 +237,8 @@
                 },
                 {
                     "name": "Penalties",
-                    "type": "radio",
-                    "dropdown": [
+                    "type": "dropdown",
+                    "options": [
                         "None",
                         "Foul(s)",
                         "Tech Foul(s)",

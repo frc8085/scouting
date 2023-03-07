@@ -134,7 +134,7 @@
           "type": "text"
         },
         {
-          "name": "Comments",
+          "name": "Comments - Overall Quality, Major Concerns, Skill making linkss",
           "type": "textarea"
         }
       ]

@@ -1,215 +1,248 @@
 {
-  "heading": "Charged Up - 2023",
-  "forceQualifiers": true,
-  "pages": [
-    {
-      "name": "Setup",
-      "widgets": [
+    "heading": "Charged Up - 2023",
+    "forceQualifiers": true,
+    "pages": [
         {
-          "name": "Scouter Name",
-          "type": "text"
+            "name": "Setup",
+            "widgets": [
+                {
+                    "name": "Scouter Name",
+                    "type": "text"
+                },
+                {
+                    "name": "Starting Position",
+                    "type": "positions",
+                    "file": "field.png"
+                }
+            ]
         },
         {
-          "name": "Starting Position",
-          "type": "positions",
-          "file": "field.png"
+            "name": "Autonomous",
+            "widgets": [
+                {
+                    "name": "Left Community",
+                    "type": "checkbox"
+                },
+                {
+                    "name": "Co-Op Nodes (Cubes are 2-5-8)",
+                    "type": "label",
+                    "align": "center",
+                    "col": 2
+                },
+                {
+                    "name": "Scored High Game Pieces",
+                    "type": "togglegrid",
+                    "prefix": "Auto",
+                    "colspan": 3,
+                    "width": 9,
+                    "height": 1,
+                    "colors": [
+                        "black",
+                        "green"
+                    ]
+                },
+                {
+                    "name": "Scored Mid Game Pieces",
+                    "type": "togglegrid",
+                    "prefix": "Auto",
+                    "colspan": 3,
+                    "width": 9,
+                    "height": 1,
+                    "colors": [
+                        "black",
+                        "green"
+                    ]
+                },
+                {
+                    "name": "Hybrid Nodes",
+                    "type": "togglegrid",
+                    "prefix": "Auto",
+                    "width": 9,
+                    "height": 1,
+                    "colors": [
+                        "black",
+                        "yellow",
+                        "purple"
+                    ]
+                },
+                {
+                    "type": "spacer",
+                    "height": 20
+                },
+                {
+                    "name": "Charging Station",
+                    "type": "dropdown",
+                    "options": [
+                        "Not Attempted",
+                        "Engaged",
+                        "Docked",
+                        "Failed"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Teleop",
+            "widgets": [
+                {
+                    "name": "Cycle Timer",
+                    "type": "stopwatch",
+                    "row": 1
+                },
+                {
+                    "name": "Picked Up From",
+                    "type": "heading",
+                    "row": 2,
+                    "col": 2,
+                    "colspan": 3,
+                    "align": "center"
+                },
+                {
+                    "name": "Ground",
+                    "type": "spinbox"
+                },
+                {
+                    "name": "Sub 1",
+                    "type": "spinbox"
+                },
+                {
+                    "name": "Sub 2 Low",
+                    "type": "spinbox",
+                    "row": 3,
+                    "col": 3
+                },
+                {
+                    "name": "Sub 2 High",
+                    "type": "spinbox",
+                    "col": 3
+                },
+                {
+                    "type": "spacer",
+                    "height": 40
+                },
+                {
+                    "name": "Co-Op Nodes (Cubes are 2-5-8)",
+                    "type": "label",
+                    "align": "center",
+                    "col": 2,
+                    "colspan": 3
+                },
+                {
+                    "name": "Scored High Game Pieces",
+                    "type": "togglegrid",
+                    "colspan": 3,
+                    "width": 9,
+                    "height": 1,
+                    "colors": [
+                        "black",
+                        "green"
+                    ]
+                },
+                {
+                    "name": "Scored Mid Game Pieces",
+                    "type": "togglegrid",
+                    "colspan": 3,
+                    "width": 9,
+                    "height": 1,
+                    "colors": [
+                        "black",
+                        "green"
+                    ]
+                },
+                {
+                    "name": "Hybrid Nodes",
+                    "type": "togglegrid",
+                    "colspan": 3,
+                    "width": 9,
+                    "height": 1,
+                    "colors": [
+                        "black",
+                        "yellow",
+                        "purple"
+                    ]
+                },
+                {
+                    "name": "Defense Rating",
+                    "type": "dropdown",
+                    "colspan": 2,
+                    "options": [
+                        "0 (Not Played)",
+                        "1",
+                        "2",
+                        "3",
+                        "4",
+                        "5 (Very Effective)"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Endgame",
+            "widgets": [
+                {
+                    "name": "Docking Timer",
+                    "type": "stopwatch",
+                    "row": 1
+                },
+                {
+                    "name": "Parking",
+                    "type": "radio",
+                    "options": [
+                        "Docked+Engaged",
+                        "Docked Only",
+                        "Parked",
+                        "None"
+                    ],
+                    "default": 3
+                },
+                {
+                    "name": "Failed Charging Station - if applicable",
+                    "type": "radio",
+                    "options": [
+                        "N/A",
+                        "Fell off",
+                        "Slid Off",
+                        "Too Late",
+                        "Driver Skill"
+                    ],
+                    "default": 0
+                },
+                {
+                    "name": "Robots Docked",
+                    "type": "spinbox",
+                    "max": 3
+                },
+                {
+                    "name": "Stability",
+                    "type": "radio",
+                    "options": [
+                        "Stable",
+                        "Tippy",
+                        "Tipped Over Completely"
+                    ],
+                    "default": 0
+                },
+                {
+                    "name": "Reliability",
+                    "type": "radio",
+                    "options": [
+                        "No issues",
+                        "Intake Broke",
+                        "Scoring Broke",
+                        "Drivetrain Broke",
+                        "Completely Disabled"
+                    ],
+                    "default": 0
+                },
+                {
+                    "name": "Mechanical Failures",
+                    "type": "text"
+                },
+                {
+                    "name": "Comments",
+                    "type": "textarea"
+                }
+            ]
         }
-      ]
-    },
-    {
-      "name": "Autonomous",
-      "widgets": [
-        {
-          "name": "Left Community",
-          "type": "checkbox"
-        },
-        {
-          "name": "Co-Op Nodes",
-          "type": "label",
-          "align": "center",
-          "col": 2
-        },
-        {
-          "name": "Scored High Game Pieces",
-          "type": "togglegrid",
-          "prefix": "Auto",
-          "colspan": 3,
-          "width": 9,
-          "height": 1,
-          "colors": [
-            "black",
-            "green"
-          ]
-        },
-        {
-          "name": "Scored Mid Game Pieces",
-          "type": "togglegrid",
-          "prefix": "Auto",
-          "colspan": 3,
-          "width": 9,
-          "height": 1,
-          "colors": [
-            "black",
-            "green"
-          ]
-        },        {
-          "name": "Hybrid Nodes",
-          "type": "togglegrid",
-          "prefix": "Auto",
-          "width": 9,
-          "height": 1,
-          "colors": [
-            "black",
-            "yellow",
-            "purple"
-          ]
-        },
-        {
-          "type": "spacer",
-          "height": 20
-        },
-        {
-          "name": "Charging Station",
-          "type": "dropdown",
-          "options": [
-            "Not Attempted",
-            "Engaged",
-            "Docked",
-            "Failed"
-          ]
-        }
-      ]
-    },
-    {
-      "name": "Teleop",
-      "widgets": [
-        {"name": "Cycle Timer",
-          "type": "stopwatch",
-          "row": 1
-        },
-        {
-          "name": "Picked Up From",
-          "type": "heading",
-          "row": 2,
-          "col": 2,
-          "colspan": 3,
-          "align": "center"
-        },
-        {
-          "name": "Ground",
-          "type": "spinbox"
-        },
-        {
-          "name": "Sub 1",
-          "type": "spinbox"
-        },
-        {
-          "name": "Sub 2 Low",
-          "type": "spinbox",
-          "row": 3,
-          "col": 3
-        },
-        {
-          "name": "Sub 2 High",
-          "type": "spinbox",
-          "col": 3
-        },
-        {
-          "type": "spacer",
-          "height": 40
-        },
-        {
-          "name": "Co-Op Nodes",
-          "type": "label",
-          "align": "center",
-          "col": 2,
-          "colspan": 3
-        },
-        {
-          "name": "Scored High Game Pieces",
-          "type": "togglegrid",
-          "colspan": 3,
-          "width": 9,
-          "height": 1,
-          "colors": [
-            "black",
-            "green"
-          ]
-        },
-        {
-          "name": "Scored Mid Game Pieces",
-          "type": "togglegrid",
-          "colspan": 3,
-          "width": 9,
-          "height": 1,
-          "colors": [
-            "black",
-            "green"
-          ]
-        },
-        {
-          "name": "Hybrid Nodes",
-          "type": "togglegrid",
-          "colspan": 3,
-          "width": 9,
-          "height": 1,
-          "colors": [
-            "black",
-            "yellow",
-            "purple"
-          ]
-        },
-        {
-          "name": "Defense Rating",
-          "type": "dropdown",
-          "colspan": 2,
-          "options": [
-            "0 (Not Played)",
-            "1 (Played Poorly)",
-            "2 (Below Average)",
-            "3 (Average)",
-            "4 (Above Average)",
-            "5 (Very Effective)"
-          ]
-        }
-      ]
-    },
-    {
-      "name": "Endgame",
-      "widgets": [
-        {"name": "Docking Timer",
-          "type": "stopwatch",
-          "row": 1
-        },
-        {
-          "name": "Parking",
-          "type": "radio",
-          "options": [
-            "Docked+Engaged",
-            "Docked Only",
-            "Parked",
-            "None"
-          ],
-          "default": 3
-        },
-        {
-          "name": "Failed Charging Station",
-          "type": "checkbox"
-        },
-        {
-          "name": "Robots Docked",
-          "type": "spinbox",
-          "max": 3
-        },
-        {
-          "name": "Mechanical Failures",
-          "type": "text"
-        },
-        {
-          "name": "Comments",
-          "type": "textarea"
-        }
-      ]
-    }
-  ]
+    ]
 }

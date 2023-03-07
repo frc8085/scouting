@@ -196,14 +196,16 @@
                     "default": 3
                 },
                 {
-                    "name": "Failed Charging Station",
+                    "name": "Failed Charging Station - if applicable",
                     "type": "radio",
                     "options": [
+                        "N/A",
                         "Fell off",
                         "Slid Off",
                         "Too Late",
                         "Driver Skill"
-                    ]
+                    ],
+                    "default": 0
                 },
                 {
                     "name": "Robots Docked",
@@ -227,7 +229,7 @@
                         "No issues",
                         "Intake Broke",
                         "Scoring Broke",
-                        "Drive Broke",
+                        "Drivetrain Broke",
                         "Completely Disabled"
                     ],
                     "default": 0

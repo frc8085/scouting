@@ -71,7 +71,7 @@ button:disabled {
 }
 
 #button-container {
-  margin-bottom: 8px;
+  margin-bottom: 12px;
   display: flex;
   justify-content: space-between;
   align-items: center;

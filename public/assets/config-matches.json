@@ -30,7 +30,7 @@
                     "col": 2
                 },
                 {
-                    "name": "Scored High Game Pieces",
+                    "name": "High",
                     "type": "togglegrid",
                     "prefix": "Auto",
                     "colspan": 3,
@@ -42,7 +42,7 @@
                     ]
                 },
                 {
-                    "name": "Scored Mid Game Pieces",
+                    "name": "Mid",
                     "type": "togglegrid",
                     "prefix": "Auto",
                     "colspan": 3,
@@ -103,7 +103,7 @@
                 {
                     "name": "Sub 2 Low",
                     "type": "spinbox",
-                    "row": 3,
+                    "row": 2,
                     "col": 3
                 },
                 {
@@ -113,7 +113,7 @@
                 },
                 {
                     "type": "spacer",
-                    "height": 40
+                    "height": 20
                 },
                 {
                     "name": "Co-Op Nodes (Cubes are 2-5-8)",
@@ -123,7 +123,7 @@
                     "colspan": 3
                 },
                 {
-                    "name": "Scored High Game Pieces",
+                    "name": "High",
                     "type": "togglegrid",
                     "colspan": 3,
                     "width": 9,
@@ -134,7 +134,7 @@
                     ]
                 },
                 {
-                    "name": "Scored Mid Game Pieces",
+                    "name": "Mid",
                     "type": "togglegrid",
                     "colspan": 3,
                     "width": 9,

@@ -85,11 +85,6 @@
             "name": "Teleop",
             "widgets": [
                 {
-                    "name": "Cycle Timer",
-                    "type": "stopwatch",
-                    "row": 1
-                },
-                {
                     "name": "Picked Up From",
                     "type": "heading",
                     "row": 2,
@@ -180,11 +175,6 @@
             "name": "Endgame",
             "widgets": [
                 {
-                    "name": "Docking Timer",
-                    "type": "stopwatch",
-                    "row": 1
-                },
-                {
                     "name": "Parking",
                     "type": "radio",
                     "options": [
@@ -211,7 +201,12 @@
                     "name": "Robots Docked",
                     "type": "spinbox",
                     "max": 3
-                },
+                }
+            ]
+        },
+        {
+            "name": "Robot Summary",
+            "widgets": [
                 {
                     "name": "Stability",
                     "type": "radio",

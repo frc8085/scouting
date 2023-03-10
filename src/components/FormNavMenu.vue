@@ -52,9 +52,9 @@ function switchPage(n: number) {
 </script>
 
 <style>
+
 @media (pointer:none),
 (pointer:coarse) {
-
   .link {
     line-height: 140%;
   }

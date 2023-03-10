@@ -87,7 +87,7 @@
                 {
                     "name": "Picked Up From",
                     "type": "heading",
-                    "row": 2,
+                    "row": 1,
                     "col": 1,
                     "colspan": 3,
                     "align": "center"

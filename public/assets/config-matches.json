@@ -186,13 +186,13 @@
                     "default": 3
                 },
                 {
-                    "name": "Failed Charging Station - if applicable",
+                    "name": "If Failed",
                     "type": "radio",
                     "options": [
                         "N/A",
-                        "Fell off",
-                        "Slid Off",
-                        "Too Late",
+                        "Fell Off Charge Station",
+                        "Slid Off Charge Station",
+                        "Attempted Too Late",
                         "Driver Skill"
                     ],
                     "default": 0

@@ -56,7 +56,7 @@ function switchPage(n: number) {
 @media (pointer:none),
 (pointer:coarse) {
   .link {
-    line-height: 140%;
+    line-height: 200%;
   }
 }
 

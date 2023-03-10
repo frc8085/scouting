@@ -88,7 +88,7 @@
                     "name": "Picked Up From",
                     "type": "heading",
                     "row": 1,
-                    "col": 1,
+                    "col": 2,
                     "colspan": 3,
                     "align": "center"
                 },

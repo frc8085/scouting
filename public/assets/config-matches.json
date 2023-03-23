@@ -3,7 +3,7 @@
     "forceQualifiers": true,
     "pages": [
         {
-            "name": "Setup",
+            "name": "Autonomous",
             "widgets": [
                 {
                     "name": "Scouter Name",
@@ -11,19 +11,14 @@
                 },
                 {
                     "name": "Starting Position",
-                    "type": "dropdown",
+                    "type": "radio",
                     "options": [
                         "1-Far",
                         "2-Mid",
                         "3-Close",
                         "4-Other"
                     ]
-                }
-            ]
-        },
-        {
-            "name": "Autonomous",
-            "widgets": [
+                },
                 {
                     "name": "Left Community",
                     "type": "checkbox"

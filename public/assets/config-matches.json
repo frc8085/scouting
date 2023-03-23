@@ -28,10 +28,8 @@
                     "type": "checkbox"
                 },
                 {
-                    "name": "Cargo Delivered",
-                    "type": "label",
-                    "align": "center",
-                    "col": 2
+                    "type": "spacer",
+                    "height": 20
                 },
                 {
                     "name": "High",
@@ -184,7 +182,7 @@
                     "type": "spinbox",
                     "align": "left",
                     "row": 6,
-                    "col": 2
+                    "col": 3
                 },
                 {
                     "name": "Low",
@@ -205,7 +203,11 @@
                     "type": "spinbox",
                     "align": "left",
                     "row": 7,
-                    "col": 2
+                    "col": 3
+                },
+                {
+                    "type": "spacer",
+                    "height": 20
                 },
                 {
                     "name": "Defense Rating",

@@ -7,16 +7,17 @@
             "widgets": [
                 {
                     "name": "Scouter Name",
-                    "type": "text",
-                    "validation": {
-                        "comparison": "greater",
-                        "value": 0
-                    }
+                    "type": "text"
                 },
                 {
                     "name": "Starting Position",
-                    "type": "positions",
-                    "file": "field.png"
+                    "type": "dropdown",
+                    "options": [
+                        "1-Far",
+                        "2-Mid",
+                        "3-Close",
+                        "4-Other"
+                    ]
                 }
             ]
         },
@@ -98,7 +99,7 @@
                     "height": 20
                 },
                 {
-                    "name": "Charging Station",
+                    "name": "Auto Charging Station",
                     "type": "dropdown",
                     "options": [
                         "Not Attempted",
@@ -113,29 +114,29 @@
             "name": "Teleop",
             "widgets": [
                 {
-                    "name": "Picked Up From",
+                    "name": "Successful Pickup From",
                     "type": "heading",
                     "row": 1,
                     "col": 2,
                     "colspan": 3,
-                    "align": "center"
+                    "align": "left"
                 },
                 {
-                    "name": "Ground",
+                    "name": "Field Ground",
                     "type": "spinbox"
                 },
                 {
-                    "name": "Sub 1",
+                    "name": "Single Sub",
                     "type": "spinbox"
                 },
                 {
-                    "name": "Sub 2 Low",
+                    "name": "Loading Ground",
                     "type": "spinbox",
                     "row": 2,
                     "col": 3
                 },
                 {
-                    "name": "Sub 2 High",
+                    "name": "Double Sub",
                     "type": "spinbox",
                     "col": 3
                 },
@@ -144,27 +145,15 @@
                     "height": 20
                 },
                 {
+                    "name": "Successful Scoring",
+                    "type": "heading",
+                    "row": 5,
+                    "col": 2,
+                    "colspan": 3,
+                    "align": "left"
+                },
+                {
                     "name": "High",
-                    "type": "label",
-                    "align": "left",
-                    "row": 5,
-                    "col": 1
-                },
-                {
-                    "name": "Cones",
-                    "type": "spinbox",
-                    "align": "left",
-                    "row": 5
-                },
-                {
-                    "name": "Cubes",
-                    "type": "spinbox",
-                    "align": "left",
-                    "row": 5,
-                    "col": 3
-                },
-                {
-                    "name": "Mid",
                     "type": "label",
                     "align": "left",
                     "row": 6,
@@ -184,7 +173,7 @@
                     "col": 3
                 },
                 {
-                    "name": "Low",
+                    "name": "Mid",
                     "type": "label",
                     "align": "left",
                     "row": 7,
@@ -204,21 +193,32 @@
                     "col": 3
                 },
                 {
+                    "name": "Low",
+                    "type": "label",
+                    "align": "left",
+                    "row": 8,
+                    "col": 1
+                },
+                {
+                    "name": "Cones",
+                    "type": "spinbox",
+                    "align": "left",
+                    "row": 8
+                },
+                {
+                    "name": "Cubes",
+                    "type": "spinbox",
+                    "align": "left",
+                    "row": 8,
+                    "col": 3
+                },
+                {
                     "type": "spacer",
                     "height": 20
                 },
                 {
-                    "name": "Defense Rating",
-                    "type": "dropdown",
-                    "colspan": 2,
-                    "options": [
-                        "0 (Not Played)",
-                        "1",
-                        "2",
-                        "3",
-                        "4",
-                        "5 (Very Effective)"
-                    ]
+                    "name": "Played Defense",
+                    "type": "checkbox"
                 }
             ]
         },
@@ -226,7 +226,7 @@
             "name": "Endgame",
             "widgets": [
                 {
-                    "name": "Parking",
+                    "name": "Endgame Charging Station",
                     "type": "radio",
                     "options": [
                         "Docked+Engaged",
@@ -247,11 +247,6 @@
                         "Driver Skill"
                     ],
                     "default": 0
-                },
-                {
-                    "name": "Robots Docked",
-                    "type": "spinbox",
-                    "max": 3
                 }
             ]
         },

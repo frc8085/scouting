@@ -154,8 +154,27 @@
                     "name": "Cones",
                     "type": "spinbox",
                     "align": "left",
+                    "row": 5
+                },
+                {
+                    "name": "Cubes",
+                    "type": "spinbox",
+                    "align": "left",
+                    "row": 5,
+                    "col": 3
+                },
+                {
+                    "name": "Mid",
+                    "type": "label",
+                    "align": "left",
                     "row": 6,
                     "col": 1
+                },
+                {
+                    "name": "Cones",
+                    "type": "spinbox",
+                    "align": "left",
+                    "row": 6
                 },
                 {
                     "name": "Cubes",
@@ -165,7 +184,7 @@
                     "col": 3
                 },
                 {
-                    "name": "Mid",
+                    "name": "Low",
                     "type": "label",
                     "align": "left",
                     "row": 7,
@@ -175,35 +194,13 @@
                     "name": "Cones",
                     "type": "spinbox",
                     "align": "left",
-                    "row": 8,
-                    "col": 1
+                    "row": 7
                 },
                 {
                     "name": "Cubes",
                     "type": "spinbox",
                     "align": "left",
-                    "row": 8,
-                    "col": 3
-                },
-                {
-                    "name": "Low",
-                    "type": "label",
-                    "align": "left",
-                    "row": 9,
-                    "col": 1
-                },
-                {
-                    "name": "Cones",
-                    "type": "spinbox",
-                    "align": "left",
-                    "row": 10,
-                    "col": 1
-                },
-                {
-                    "name": "Cubes",
-                    "type": "spinbox",
-                    "align": "left",
-                    "row": 10,
+                    "row": 7,
                     "col": 3
                 },
                 {

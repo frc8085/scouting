@@ -162,7 +162,7 @@
                     "type": "spinbox",
                     "align": "left",
                     "row": 6,
-                    "col": 2
+                    "col": 3
                 },
                 {
                     "name": "Mid",

@@ -54,28 +54,42 @@
                     "col": 2
                 },
                 {
-                    "name": "Mid Cones",
+                    "name": "Mid",
+                    "type": "label",
+                    "align": "left",
+                    "row": 4,
+                    "col": 1
+                },
+                {
+                    "name": "Cones",
                     "type": "spinbox",
                     "align": "left",
                     "row": 4,
                     "col": 1
                 },
                 {
-                    "name": "Mid Cubes",
+                    "name": "Cubes",
                     "type": "spinbox",
                     "align": "left",
                     "row": 4,
                     "col": 2
                 },
                 {
-                    "name": "Low Cones",
+                    "name": "Low",
+                    "type": "label",
+                    "align": "left",
+                    "row": 5,
+                    "col": 1
+                },
+                {
+                    "name": "Cones",
                     "type": "spinbox",
                     "align": "left",
                     "row": 5,
                     "col": 1
                 },
                 {
-                    "name": "Low Cubes",
+                    "name": "Cubes",
                     "type": "spinbox",
                     "align": "left",
                     "row": 5,

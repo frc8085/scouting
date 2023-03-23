@@ -96,48 +96,6 @@
                     "col": 2
                 },
                 {
-                    "name": "Co-Op Nodes (Cubes are 2-5-8)",
-                    "type": "label",
-                    "align": "center",
-                    "col": 2
-                },
-                {
-                    "name": "High",
-                    "type": "togglegrid",
-                    "prefix": "Auto",
-                    "colspan": 3,
-                    "width": 9,
-                    "height": 1,
-                    "colors": [
-                        "black",
-                        "green"
-                    ]
-                },
-                {
-                    "name": "Mid",
-                    "type": "togglegrid",
-                    "prefix": "Auto",
-                    "colspan": 3,
-                    "width": 9,
-                    "height": 1,
-                    "colors": [
-                        "black",
-                        "green"
-                    ]
-                },
-                {
-                    "name": "Hybrid Nodes",
-                    "type": "togglegrid",
-                    "prefix": "Auto",
-                    "width": 9,
-                    "height": 1,
-                    "colors": [
-                        "black",
-                        "yellow",
-                        "purple"
-                    ]
-                },
-                {
                     "type": "spacer",
                     "height": 20
                 },
@@ -188,45 +146,66 @@
                     "height": 20
                 },
                 {
-                    "name": "Co-Op Nodes (Cubes are 2-5-8)",
+                    "name": "High",
                     "type": "label",
-                    "align": "center",
-                    "col": 2,
-                    "colspan": 3
+                    "align": "left",
+                    "row": 3,
+                    "col": 1
                 },
                 {
-                    "name": "High",
-                    "type": "togglegrid",
-                    "colspan": 3,
-                    "width": 9,
-                    "height": 1,
-                    "colors": [
-                        "black",
-                        "green"
-                    ]
+                    "name": "Cones",
+                    "type": "spinbox",
+                    "align": "left",
+                    "row": 3
+                },
+                {
+                    "name": "Cubes",
+                    "type": "spinbox",
+                    "align": "left",
+                    "row": 3,
+                    "col": 2
                 },
                 {
                     "name": "Mid",
-                    "type": "togglegrid",
-                    "colspan": 3,
-                    "width": 9,
-                    "height": 1,
-                    "colors": [
-                        "black",
-                        "green"
-                    ]
+                    "type": "label",
+                    "align": "left",
+                    "row": 4,
+                    "col": 1
                 },
                 {
-                    "name": "Hybrid Nodes",
-                    "type": "togglegrid",
-                    "colspan": 3,
-                    "width": 9,
-                    "height": 1,
-                    "colors": [
-                        "black",
-                        "yellow",
-                        "purple"
-                    ]
+                    "name": "Cones",
+                    "type": "spinbox",
+                    "align": "left",
+                    "row": 4,
+                    "col": 1
+                },
+                {
+                    "name": "Cubes",
+                    "type": "spinbox",
+                    "align": "left",
+                    "row": 4,
+                    "col": 2
+                },
+                {
+                    "name": "Low",
+                    "type": "label",
+                    "align": "left",
+                    "row": 5,
+                    "col": 1
+                },
+                {
+                    "name": "Cones",
+                    "type": "spinbox",
+                    "align": "left",
+                    "row": 5,
+                    "col": 1
+                },
+                {
+                    "name": "Cubes",
+                    "type": "spinbox",
+                    "align": "left",
+                    "row": 5,
+                    "col": 2
                 },
                 {
                     "name": "Defense Rating",

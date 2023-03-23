@@ -44,8 +44,7 @@
                     "name": "Cones",
                     "type": "spinbox",
                     "align": "left",
-                    "row": 3,
-                    "col": 2
+                    "row": 3
                 },
                 {
                     "name": "Cubes",

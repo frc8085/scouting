@@ -28,6 +28,24 @@
                     "type": "checkbox"
                 },
                 {
+                    "name": "Cargo Delivered",
+                    "type": "label",
+                    "align": "center",
+                    "col": 2
+                },
+                {
+                    "name": "High Cones",
+                    "type": "spinbox",
+                    "align": "left",
+                    "col": 1
+                },
+                {
+                    "name": "High Cubes",
+                    "type": "spinbox",
+                    "align": "left",
+                    "col": 2
+                },
+                {
                     "name": "Co-Op Nodes (Cubes are 2-5-8)",
                     "type": "label",
                     "align": "center",

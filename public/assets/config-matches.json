@@ -149,53 +149,62 @@
                     "name": "High",
                     "type": "label",
                     "align": "left",
+                    "row": 5,
                     "col": 1
                 },
                 {
                     "name": "Cones",
                     "type": "spinbox",
-                    "align": "left"
+                    "align": "left",
+                    "row": 5
                 },
                 {
                     "name": "Cubes",
                     "type": "spinbox",
                     "align": "left",
+                    "row": 5,
                     "col": 3
                 },
                 {
                     "name": "Mid",
                     "type": "label",
                     "align": "left",
+                    "row": 6,
                     "col": 1
                 },
                 {
                     "name": "Cones",
                     "type": "spinbox",
                     "align": "left",
+                    "row": 6,
                     "col": 1
                 },
                 {
                     "name": "Cubes",
                     "type": "spinbox",
                     "align": "left",
+                    "row": 6,
                     "col": 2
                 },
                 {
                     "name": "Low",
                     "type": "label",
                     "align": "left",
+                    "row": 7,
                     "col": 1
                 },
                 {
                     "name": "Cones",
                     "type": "spinbox",
                     "align": "left",
+                    "row": 7,
                     "col": 1
                 },
                 {
                     "name": "Cubes",
                     "type": "spinbox",
                     "align": "left",
+                    "row": 7,
                     "col": 2
                 },
                 {

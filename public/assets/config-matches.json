@@ -43,6 +43,33 @@
                     "name": "High Cubes",
                     "type": "spinbox",
                     "align": "left",
+                    "row": 2,
+                    "col": 2
+                },
+                {
+                    "name": "Mid Cones",
+                    "type": "spinbox",
+                    "align": "left",
+                    "col": 1
+                },
+                {
+                    "name": "Mid Cubes",
+                    "type": "spinbox",
+                    "align": "left",
+                    "row": 3,
+                    "col": 2
+                },
+                {
+                    "name": "Low Cones",
+                    "type": "spinbox",
+                    "align": "left",
+                    "col": 1
+                },
+                {
+                    "name": "Low Cubes",
+                    "type": "spinbox",
+                    "align": "left",
+                    "row": 2,
                     "col": 2
                 },
                 {

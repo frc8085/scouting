@@ -154,13 +154,14 @@
                     "name": "Cones",
                     "type": "spinbox",
                     "align": "left",
-                    "row": 5
+                    "row": 6,
+                    "col": 2
                 },
                 {
                     "name": "Cubes",
                     "type": "spinbox",
                     "align": "left",
-                    "row": 5,
+                    "row": 6,
                     "col": 3
                 },
                 {

@@ -34,18 +34,25 @@
                     "col": 2
                 },
                 {
-                    "name": "High Cones",
-                    "type": "spinbox",
+                    "name": "High",
+                    "type": "label",
                     "align": "left",
                     "row": 3,
                     "col": 1
                 },
                 {
-                    "name": "High Cubes",
+                    "name": "Cones",
                     "type": "spinbox",
                     "align": "left",
                     "row": 3,
                     "col": 2
+                },
+                {
+                    "name": "Cubes",
+                    "type": "spinbox",
+                    "align": "left",
+                    "row": 3,
+                    "col": 3
                 },
                 {
                     "name": "Mid Cones",

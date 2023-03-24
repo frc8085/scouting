@@ -9,7 +9,7 @@
                     "name": "Scouter Name",
                     "type": "text",
                     "colspan": 3,
-                    "align": "center"
+                    "align": "left"
                 },
                 {
                     "name": "Starting Position",
@@ -120,7 +120,7 @@
                         "Failed"
                     ],
                     "colspan": 3,
-                    "align": "center"
+                    "align": "left"
                 }
             ]
         },
@@ -256,6 +256,10 @@
                     "default": 3
                 },
                 {
+                    "type": "spacer",
+                    "height": 20
+                },
+                {
                     "name": "If Failed",
                     "type": "radio",
                     "options": [
@@ -283,6 +287,10 @@
                     "default": 0
                 },
                 {
+                    "type": "spacer",
+                    "height": 20
+                },
+                {
                     "name": "Reliability",
                     "type": "radio",
                     "options": [
@@ -293,6 +301,10 @@
                         "Completely Disabled"
                     ],
                     "default": 0
+                },
+                {
+                    "type": "spacer",
+                    "height": 20
                 },
                 {
                     "name": "Mechanical Failures",

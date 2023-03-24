@@ -10,12 +10,6 @@
                     "type": "text"
                 },
                 {
-                    "type": "picture",
-                    "file": "field.png",
-                    "colspan": 3,
-                    "align": "center"
-                },
-                {
                     "name": "Starting Position",
                     "type": "radio",
                     "options": [
@@ -24,6 +18,13 @@
                         "3-Close",
                         "4-Other"
                     ]
+                },
+                {
+                    "type": "picture",
+                    "file": "field.png",
+                    "row": 2,
+                    "col": 3,
+                    "align": "right"
                 },
                 {
                     "name": "Left Community",

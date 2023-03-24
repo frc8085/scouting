@@ -9,7 +9,7 @@
                     "name": "Scouter Name",
                     "type": "text",
                     "colspan": 3,
-                    "align": "left"
+                    "align": "center"
                 },
                 {
                     "name": "Starting Position",
@@ -118,7 +118,9 @@
                         "Engaged",
                         "Docked",
                         "Failed"
-                    ]
+                    ],
+                    "colspan": 3,
+                    "align": "center"
                 }
             ]
         },

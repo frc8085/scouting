@@ -7,7 +7,9 @@
             "widgets": [
                 {
                     "name": "Scouter Name",
-                    "type": "text"
+                    "type": "text",
+                    "colspan": 3,
+                    "align": "left"
                 },
                 {
                     "name": "Starting Position",
@@ -43,58 +45,65 @@
                     "align": "left"
                 },
                 {
+                    "name": "High",
+                    "type": "label",
+                    "align": "left",
+                    "row": 6,
+                    "col": 1
+                },
+                {
                     "name": "AHCones",
                     "type": "spinbox",
                     "align": "left",
-                    "row": 5
+                    "row": 6
                 },
                 {
                     "name": "AHCubes",
                     "type": "spinbox",
                     "align": "left",
-                    "row": 5,
+                    "row": 6,
                     "col": 3
                 },
                 {
                     "name": "Mid",
                     "type": "label",
                     "align": "left",
-                    "row": 6,
+                    "row": 7,
                     "col": 1
                 },
                 {
                     "name": "AMCones",
                     "type": "spinbox",
                     "align": "left",
-                    "row": 6,
+                    "row": 7,
                     "col": 1
                 },
                 {
                     "name": "AMCubes",
                     "type": "spinbox",
                     "align": "left",
-                    "row": 6,
+                    "row": 7,
                     "col": 3
                 },
                 {
                     "name": "Low",
                     "type": "label",
                     "align": "left",
-                    "row": 7,
+                    "row": 8,
                     "col": 1
                 },
                 {
                     "name": "ALCones",
                     "type": "spinbox",
                     "align": "left",
-                    "row": 7,
+                    "row": 8,
                     "col": 1
                 },
                 {
                     "name": "ALCubes",
                     "type": "spinbox",
                     "align": "left",
-                    "row": 7,
+                    "row": 8,
                     "col": 3
                 },
                 {

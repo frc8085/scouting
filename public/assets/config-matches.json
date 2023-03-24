@@ -10,6 +10,10 @@
                     "type": "text"
                 },
                 {
+                    "type": "picture",
+                    "file": "field.png"
+                },
+                {
                     "name": "Starting Position",
                     "type": "radio",
                     "options": [
@@ -28,11 +32,12 @@
                     "height": 20
                 },
                 {
-                    "name": "High",
-                    "type": "label",
-                    "align": "left",
+                    "name": "Successful Scoring",
+                    "type": "heading",
                     "row": 5,
-                    "col": 1
+                    "col": 1,
+                    "colspan": 3,
+                    "align": "left"
                 },
                 {
                     "name": "AHCones",

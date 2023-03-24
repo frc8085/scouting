@@ -118,21 +118,26 @@
                 },
                 {
                     "name": "Field Ground",
-                    "type": "spinbox"
+                    "type": "spinbox",
+                    "row": 2,
+                    "col": 1
                 },
                 {
                     "name": "Loading Ground",
+                    "type": "spinbox",
+                    "row": 3,
+                    "col": 1
+                },
+                {
+                    "name": "Single Sub",
                     "type": "spinbox",
                     "row": 2,
                     "col": 3
                 },
                 {
-                    "name": "Single Sub",
-                    "type": "spinbox"
-                },
-                {
                     "name": "Double Sub",
                     "type": "spinbox",
+                    "row": 3,
                     "col": 3
                 },
                 {

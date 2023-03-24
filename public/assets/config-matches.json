@@ -11,7 +11,9 @@
                 },
                 {
                     "type": "picture",
-                    "file": "field.png"
+                    "file": "field.png",
+                    "colspan": 3,
+                    "align": "center"
                 },
                 {
                     "name": "Starting Position",

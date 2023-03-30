@@ -1,2 +1,2 @@
 matches
-<RouterLink :to="https://form.jotform.com/230885250154151">Scouting</RouterLink>
+window.location.href = 'https://form.jotform.com/230885250154151';

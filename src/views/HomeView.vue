@@ -13,6 +13,8 @@
 import HomePage from "@/components/HomePage.vue";
 </script>
 
+<a :href="https://form.jotform.com/230885250154151">
+
 <style>
 #home-container {
   display: grid;

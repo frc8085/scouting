@@ -1,2 +1,2 @@
 matches
-window.location.href = 'https://form.jotform.com/230885250154151';
+<a :href="https://form.jotform.com/230885250154151">
